@@ -67,6 +67,21 @@
               }
             }
           },
+          "scripts": [],
+            "aot": false,
+            "vendorChunk": true,
+            "extractLicenses": false,
+            "buildOptimizer": false,
+            "sourceMap": true,
+            "optimization": false,
+            "namedChunks": true,
+            "customWebpackConfig": {
+              "path": "./webpack.angular.js",
+              "mergeRules": {
+                "externals": "replace"
+              }
+            }
+          },
           "configurations": {
             "production": {
               "fileReplacements": [
